@@ -1,0 +1,6 @@
+name: HCF
+version: 0.1
+author: Weekom-Developers
+website: https://dsc.gg/weekom
+api: 3.0.0
+main: hcf\HCFLoader
