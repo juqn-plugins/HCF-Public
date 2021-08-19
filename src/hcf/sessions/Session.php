@@ -107,5 +107,6 @@ class Session
             'faction' => $this->getFaction(),
             'balance' => $this->getBalance()
         ];
+        return $data;
     }
 }

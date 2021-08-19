@@ -46,7 +46,7 @@ class HCFLoader extends PluginBase
     
     public function onDisable()
     {
-        $this->sessionManager->close();
+        $this->yamlProvider->close();
     }
     
     /**

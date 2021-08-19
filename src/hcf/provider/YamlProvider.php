@@ -22,7 +22,7 @@ class YamlProvider
             @mkdir($plugin->getDataFolder() . 'players');
             
         if (!is_dir($plugin->getDataFolder() . 'factions'))
-            @mkdir($this->getDataFolder() . 'factions');
+            @mkdir($plugin->getDataFolder() . 'factions');
             
         $plugin->saveDefaultConfig();
     }

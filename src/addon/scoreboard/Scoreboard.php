@@ -66,7 +66,7 @@ class Scoreboard
      */
     private function getPlayer(): ?Player
 	{
-		return Server::getInstance()->getPlayer(HCFLoader::getInstance()->getSessionManager()->getPlayer($this->xuid)->getName());
+		return Server::getInstance()->getPlayer(HCFLoader::getInstance()->getSessionManager()->getSession($this->xuid)->getName());
 	}
 
     public function initScoreboard() : void
