@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace greek\scoreboard;
+namespace addon\scoreboard;
 
 use hcf\HCFLoader;
 use pocketmine\network\mcpe\protocol\RemoveObjectivePacket;
@@ -14,7 +14,7 @@ use pocketmine\Server;
 
 /**
  * Class Scoreboard
- * @package greek\scoreboard
+ * @package addon\scoreboard
  */
 class Scoreboard
 {
